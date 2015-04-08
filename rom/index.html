@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>רא"מ ממרפאת מומחים</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+.business-header {
+    height: 400px;
+    /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    
+
+    background: url('http://techaisle.com/images/headers/home1_header_1920x400.jpg') center center no-repeat scroll;
+    /*background: url('http://www.onestepfoundation.co.uk/images/slider/slides/1920x400/southern-alps-1920x400.png') center center no-repeat scroll;*/
+    /*background-image: url("images/RAM.jpg");*/
+    /*background-image: url("images/RAM.jpg") center center no-repeat scroll;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.business-header2 {
+    height: 400px;
+    /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    
+
+    background: url('http://www.onestepfoundation.co.uk/images/slider/slides/1920x400/southern-alps-1920x400.png') center center no-repeat scroll;
+    /*background: url('http://www.onestepfoundation.co.uk/images/slider/slides/1920x400/southern-alps-1920x400.png') center center no-repeat scroll;*/
+    /*background-image: url("images/RAM.jpg");*/
+    /*background-image: url("images/RAM.jpg") center center no-repeat scroll;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(function() {
+  var body = $('body');
+  var backgrounds = ['business-header','business-header2'];
+var current = 0;
+
+function nextBackground() {
+    $("#headerr").toggleClass(backgrounds[current]); 
+  $("#headerr").toggleClass(backgrounds[current = ++current % backgrounds.length]);
+
+ setTimeout(nextBackground, 3000);
+ }
+ setTimeout(nextBackground, 3000);
+$("#headerr").toggleClass(backgrounds[0]);
+   
+ });
+
+</script>
+
+</head>
+
+<body>
+<div dir = "rtl">
+    <!-- Navigation  TODO - right to left -->
+    <nav class=" navbar-inverse navbar-fixed-top navbar-right" role="navigation"  >
+        <div class="container" dir = "rtl">
+            <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#" style="color: #fff  "> <img height="40" width="100" class="img-rounded" style="  margin: -9px;" src="images/logo.jpg" alt="logo" ></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" dir="rtl">
+                <ul class="nav navbar-nav"  dir="rtl">
+                    <li>
+                        <a href="odot.html">אודות</a>
+                    </li>
+                    <li>
+                        <a href="rent.html">השכרה</a>
+                    </li>
+                    <li>
+                        <a href="contact.php">צור קשר</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header id="headerr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline" dir="rtl">רא"מ מרפאת מומחים</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>צור קשר</h2>
+                <address>
+                    <strong>כתובת</strong>
+                    <br>בית רוטמן, קומה א
+                    <br>רחוב הרצל 63 פינת תרמ"ב 11, ראשון לציון
+                    <br>
+                </address>
+                <address dir="ltr">
+                    <abbr title="Phone">Phone:</abbr>03-5358336
+                    <br>
+                    <abbr title="Phone">Fax:</abbr>03-5358337
+                    <br>
+                    <abbr title="Email">Email:</abbr> <a href="mailto:#">dr.rachmiel@gmail.com</a>
+                </address>
+            </div>
+            <div class="col-sm-8">
+                <h2>מידע נוסף</h2>
+                <p>רא"מ מרפאת מומחים זוהי מרפאה הממוקמת בלב ראשון, מעל אזור עשיר בבתי קפה, חנויות ותחנות אוטובוס. במרפאה, שני חדרי רופא, עמדת מזכירה וחדר המתנה. במקום מעלית, גישה נוחה לנכים ושירותים בקומה.</p>
+                <p>רופאים המעוניינים להשכיר חדר ולשמוע עוד פרטים מוזמנים ללחוץ על הכפתור הבא.</p>
+                <p>
+                    <a class="btn btn-default btn-lg" href="rent.html">עוד פרטים &raquo;</a>
+                </p>
+            </div>
+           
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+            <!-- TODO: change size to 300X300-->
+                <img height="300" width="300" class="img-circle img-responsive img-center" src="images/Rony2.jpg"  alt="Rony">
+                <p> <br></p>
+                <h2>ד"ר רוני רחמיאל</h2>
+                <p> ד"ר רוני רחמיאל, מומחה לרפואת עיניים, מומחה למחלת הגלאוקומה ולניתוחי  גלאוקומה </p>
+                <p>רופא בכיר ומנתח גלאוקומה במרכז הרפואי תל אביב (ביה"ח איכילוב).</p>
+                <p>
+                    <a class="btn btn-default btn-lg" href="http://www.rachmiel.co.il">לאתר הרשמי</a>
+                </p>
+        </div>
+                
+            <div class="col-sm-4">
+            </div>
+            <!--
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+                <h2>Marketing Box #2</h2>
+                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            -->
+            <div class="col-sm-4">
+                <img height="600" width="600" class="img-circle img-responsive img-center" src="images/Marianna.jpg" alt="Marianna" >
+                <h2>ד"ר מריאנה רחמיאל</h2>
+                <p>מנהלת השירות הרב תחומי לסוכרת ילדים ונוער, המרכז הרפואי אסף הרופא</p>
+                <p> מומחית באנדוקרינולוגיית ילדים, מומחית ברפואת ילדים.  </p>
+                <p> מרצה בכירה במסלול הקליני  בחוג לרפואת ילדים בבית ספר לרפואה ע"ש סאקלר, אוניברסיטת תל אביב , ומרכזת הקורסים באנדוקרינולוגיה במסגרת לימודי הרפואה ב "תוכנית ניו יורק" באוניברסיטת תל אביב.  </p>
+                <p>
+                    <a class="btn btn-default btn-lg" href="http://drmarianna.infomed.co.il/">לאתר הרשמי</a>
+                </p>
+            </div>
+                </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12" dir="ltr">
+                    <p> <br> <br> </p>
+                    <p>Raviv Web Design &copy; ram.co.il 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+
+</html>
