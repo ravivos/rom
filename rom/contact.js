@@ -10,8 +10,9 @@ $("#returnmessage").empty(); // To empty previous error/success message.
 if (name == '' || email == '' || contact == '' || subject=='') {
 alert("אנא מלאו את כל השדות");
 } else {
+alert("ארעה תקלה - אנא שלחו מייל באופן ידני לכתובת dr.rachmiel@gmail.com");
 // Returns successful data submission message when the entered information is stored in database.
-$.post("send.php", {
+$.post("send_form_email.php", {
 name1: name,
 email1: email,
 message1: message,
